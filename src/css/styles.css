@@ -1,0 +1,153 @@
+@media (300px <= width  <= 480px){
+    body{
+        background-color: #1e393a;
+        color: beige;
+
+    }
+
+    #logo{
+        border-radius: 50px;
+        height: 40px;
+        
+    }
+    
+    .footerall{
+        position: fixed;
+        bottom: 2%;
+        right: 5%;
+    
+    }
+    .img{
+        float: right;
+        width: 40%;
+        height: 55%;
+    }
+
+    .nav{
+        background-color:rgb(44, 202, 213);
+        color:black;
+        padding:2.5px;
+        margin-left: 2.5px ;
+        margin-right: 2.5px;
+        border: 1px solid black;
+        border-radius: 15px;
+        text-decoration: none;
+        
+    }
+    
+    .nav:hover{
+        background:blue;
+        color:white;
+    }
+.container h1{
+    font-family:serif;
+    font-weight:500;
+    text-decoration:underline;
+    text-transform:uppercase;
+    line-height: 1em;
+    text-align: center;
+    margin-top: 15px;
+    color: beige;
+}
+.container p{
+    font : 1em bolder;
+    font-weight: 500;
+    margin-top: 25px;
+    font-family: sans-serif;
+    color: beige;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+.cont{
+    font : 15px bolder;
+    font-weight: 500;
+    margin-top: 25px;
+    font-family: sans-serif;
+    color: beige;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+    padding: 5px;
+}
+.ach h1{
+    font-family:serif;
+    font-weight:500;
+    text-decoration:underline;
+    text-transform:uppercase;
+    line-height: 1em;
+    text-align: center;
+    margin-top: 5px;
+    color: beige;
+}
+.ach p{
+    font-weight: 500;
+    margin-top: 5px;
+    font-family: sans-serif;
+    color: beige;
+    font : 15px bolder;
+    padding: 5px;
+}
+.ach {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding: 5px;
+}
+.ach img{
+    max-width:100%;
+    height: auto;
+}
+.ach video{
+    width: 100%;
+    height: 500px;
+}
+.ach {
+    padding: 5px;
+    font-size: 20px;
+}
+.block img{
+    width: 100%;
+    height: 500px;
+}
+.block video{
+    width: 100%;
+    height: 500px;
+}
+.block {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding: 5px;
+    font : 20px bolder;
+    font-weight: 500;
+    margin-top: 25px;
+    color: beige;
+}
+.block img{
+    width: 100%;
+    height: 500px;
+}
+.block video{
+    width: 100%;
+    height: 500px;
+}
+#title{
+    text-align: center;
+    color: beige;
+    font-family:serif;
+    font-weight:500;
+    text-decoration:underline;
+    text-transform:uppercase;
+    line-height: 1em;
+    text-align: center;
+    margin-top: 15px;
+    color: beige;
+}
+}

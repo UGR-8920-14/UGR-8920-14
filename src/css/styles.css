@@ -1,0 +1,150 @@
+@media (min-width: 300px) and (max-width: 480px) {
+  body {
+      background-color: #1e393a;
+      color: beige;
+  }
+
+  #logo {
+      border-radius: 50px;
+      height: 40px;
+      position: fixed;
+      left: 2%;
+      top: 7%;
+  }
+  
+  .footerall {
+      display: flex;
+      flex-direction: row-reverse;
+  }
+  
+  .img {
+      float: right;
+      width: 40%;
+      height: 55%;
+  }
+
+  .nav {
+      background-color: rgb(44, 202, 213);
+      color: black;
+      padding: 2.5px;
+      margin-left: 2.5px;
+      margin-right: 2.5px;
+      border: 1px solid black;
+      border-radius: 15px;
+      text-decoration: none;
+  }
+  
+  .nav:hover {
+      background: blue;
+      color: white;
+  }
+
+  .block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+      font: 12px bolder;
+      font-weight: 500;
+      margin-top: 25px;
+      font-family: sans-serif;
+      color: beige;
+      padding: 5px;
+      font-size: 20px;
+  }
+
+  .block img {
+      width: 100%;
+      height: 500px;
+  }
+
+  .block video {
+      width: 100%;
+      height: 500px;
+  }
+
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      padding: 5px;
+  }
+
+  #title {
+      text-align: center;
+      color: beige;
+      font-family: serif;
+      font-weight: 500;
+      text-decoration: underline;
+      text-transform: uppercase;
+      line-height: 1em;
+      text-align: center;
+      margin-top: 15px;
+  }
+
+  .container h1 {
+    font-family: serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 1em;
+    text-align: center;
+    margin-top: 15px;
+    color: beige;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+.box-001 {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.cont{
+  font : 15px bolder;
+  font-weight: 500;
+  margin-top: 25px;
+  font-family: sans-serif;
+  color: beige;
+}
+.ach h1 {
+  font-family: serif;
+  font-weight: 500;
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 1em;
+  text-align: center;
+  margin-top: 5px;
+  color: beige;
+}
+.ach p {
+  font: 12px bolder;
+  font-weight: 500;
+  margin-top: 5px;
+  font-family: sans-serif;
+  color: beige;
+}
+.ach {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+.ach img {
+  max-width: 100%;
+  height: auto;
+}
+.ach video {
+  width: 100%;
+  height: 500px;
+}
+
+}

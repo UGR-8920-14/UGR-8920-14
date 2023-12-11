@@ -292,7 +292,7 @@
 
   @media (min-width: 768px) and (max-width: 1279px) {
     body {
-        background-color: #3a1e34;
+        background-color: #1e393a;
         color: beige;
     }
   
@@ -442,7 +442,7 @@
 
   @media (min-width: 481px) and (max-width: 767px) {
     body {
-        background-color: #3a1e1e;
+        background-color: #1e393a;
         color: beige;
     }
   

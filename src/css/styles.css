@@ -1,80 +1,84 @@
-@media (min-width: 300px) and (max-width: 480px) {
-  body {
-      background-color: #1e393a;
-      color: beige;
-  }
-
-  #logo {
-      border-radius: 50px;
-      height: 40px;
+  @media (min-width: 300px) and (max-width: 480px) {
+    body {
+        background-color: #1e393a;
+        color: beige;
+    }
+    .header__logo {
+        border-radius: 50px;
+        height: 30px;
+        position: fixed;
+        left: 2%;
+        top: 2%;
+    }
+    .footerall {
       position: fixed;
-      left: 2%;
-      top: 7%;
-  }
-  
-  .footerall {
-      display: flex;
-      flex-direction: row-reverse;
-  }
-  
-  .img {
+      bottom: 2%;
+      right: 2%;
+   }
+   #contactf{
+     position: fixed;
+     left: 2%;
+   }
+   .content__image {
       float: right;
-      width: 40%;
-      height: 55%;
-  }
-
-  .nav {
-      background-color: rgb(44, 202, 213);
-      color: black;
-      padding: 2.5px;
-      margin-left: 2.5px;
-      margin-right: 2.5px;
-      border: 1px solid black;
-      border-radius: 15px;
-      text-decoration: none;
-  }
-  
-  .nav:hover {
-      background: blue;
-      color: white;
-  }
-
-  .block {
+        width: 40%;
+        height: 55%;
+    }
+    .nav__link {
+        background-color: rgb(44, 202, 213);
+        color: black;
+        padding: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+        border: 1px solid black;
+        border-radius: 15px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .nav__link:hover {
+        background: blue;
+        color: white;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        font: 12px bolder;
+        font-weight: 500;
+        margin-top: 25px;
+        font-family: sans-serif;
+        color: beige;
+        padding: 5px;
+        font-size: 20px;
+    }
+    .block img {
+        width: 100%;
+        height: 500px;
+    }
+    .block video {
+        width: 100%;
+        height: 500px;
+    }
+    .nav {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 5px;
-      font: 12px bolder;
-      font-weight: 500;
-      margin-top: 25px;
-      font-family: sans-serif;
-      color: beige;
-      padding: 5px;
-      font-size: 20px;
-  }
-
-  .block img {
-      width: 100%;
-      height: 500px;
-  }
-
-  .block video {
-      width: 100%;
-      height: 500px;
-  }
-
-  header {
-      display: flex;
-      justify-content: space-between;
+      justify-content:flex-start;
       align-items: center;
       flex-direction: row-reverse;
-      flex-wrap: wrap;
       padding: 5px;
-  }
-
-  #title {
-      text-align: center;
-      color: beige;
+    }
+    #title {
+        text-align: center;
+        color: beige;
+        font-family: serif;
+        font-weight: 500;
+        text-decoration: underline;
+        text-transform: uppercase;
+        line-height: 1em;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .container h1 {
       font-family: serif;
       font-weight: 500;
       text-decoration: underline;
@@ -82,69 +86,503 @@
       line-height: 1em;
       text-align: center;
       margin-top: 15px;
+      color: beige;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+    }
+    .box-001 {
+      padding: 10px;
+      font-size: 20px;
+      text-align: center;
+    }
+    .cont{
+      font : 12px bolder;
+      font-weight: 500;
+      margin-top: 25px;
+      font-family: sans-serif;
+      color: beige;
+    }
+    .ach h1 {
+      font-family: serif;
+      font-weight: 500;
+      text-decoration: underline;
+      text-transform: uppercase;
+      line-height: 1em;
+      text-align: center;
+      margin-top: 5px;
+      color: beige;
+    }
+    .ach p {
+      font: 12px bolder;
+      font-weight: 500;
+      margin-top: 5px;
+      font-family: sans-serif;
+      color: beige;
+    }
+    .ach {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 5px;
+      padding: 5px;
+      font-size: 20px;
+    }
+    .ach img {
+      max-width: 100%;
+      height: auto;
+    }
+    .ach video {
+      width: 100%;
+      height: 500px;
+    }
+  
   }
 
-  .container h1 {
-    font-family: serif;
-    font-weight: 500;
-    text-decoration: underline;
-    text-transform: uppercase;
-    line-height: 1em;
-    text-align: center;
-    margin-top: 15px;
-    color: beige;
-}
+  @media (min-width: 1024px) and (max-width: 1600px) {
+    body {
+        background-color: #1e393a;
+        color: beige;
+    }
+    .header__logo {
+        border-radius: 50px;
+        height: 50px;
+        position: fixed;
+        left: 2%;
+        top: 2%;
+    }
+    .footerall {
+      position: fixed;
+      bottom: 2%;
+      right: 2%;
+   }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5px;
-}
-.box-001 {
-  padding: 10px;
-  font-size: 20px;
-  text-align: center;
-}
-.cont{
-  font : 15px bolder;
-  font-weight: 500;
-  margin-top: 25px;
-  font-family: sans-serif;
-  color: beige;
-}
-.ach h1 {
-  font-family: serif;
-  font-weight: 500;
-  text-decoration: underline;
-  text-transform: uppercase;
-  line-height: 1em;
-  text-align: center;
-  margin-top: 5px;
-  color: beige;
-}
-.ach p {
-  font: 12px bolder;
-  font-weight: 500;
-  margin-top: 5px;
-  font-family: sans-serif;
-  color: beige;
-}
-.ach {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 5px;
-  padding: 5px;
-  font-size: 20px;
-}
-.ach img {
-  max-width: 100%;
-  height: auto;
-}
-.ach video {
-  width: 100%;
-  height: 500px;
-}
+   #contactf{
+     position: fixed;
+     left: 2%;
+   }
+   .content__image {
+      float: right;
+        width: 35%;
+        margin-top: 100px;
+    }
+    .nav__link {
+        background-color: rgb(44, 202, 213);
+        color: black;
+        padding: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border: 1px solid black;
+        border-radius: 50px;
+        text-decoration: none;
+        font: 1.2em sans-serif;
+    }
+    .nav__link:hover {
+        background: blue;
+        color: white;
+    }
+    .block{
+        float: left;
+        width: 33.3%;
+        font: 1.3em bolder;
+        font-weight: 500;
+        margin-top: 25px;
+        font-family: sans-serif;
+        color: beige;
+    }
+    .block img {
+        width: 100%;
+        height: 500px;
+    }
+    .block video {
+        width: 100%;
+        height: 500px;
+    }
+    .nav {
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 5px;
+    }
+    #title {
+        text-align: center;
+        color: beige;
+        font-family: serif;
+        font-weight: 500;
+        text-decoration: underline;
+        text-transform: uppercase;
+        line-height: 1.3em;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .container h1 {
+      font-family: serif;
+      font-weight: 800;
+      text-decoration: underline;
+      text-transform: uppercase;
+      line-height: 1.3em;
+      text-align: center;
+      margin-top: 50px;
+      color: beige;
+    }
 
-}
+    .container p{
+      font : 1.7em bolder;
+      font-weight: 500;
+      margin-top: 50px;
+      font-family: sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+    }
+    .box-001 {
+      padding: 10px;
+      font-size: 24px;
+      text-align: center;
+    }
+    .cont{
+      font : 28px bolder;
+      font-weight: 500;
+      margin-top: 25px;
+      font-family: sans-serif;
+      color: beige;
+    }
+    .ach h1 {
+      font-family: serif;
+      font-weight: 800;
+      text-decoration: underline;
+      text-transform: uppercase;
+      line-height: 1em;
+      text-align: center;
+      margin-top: 5px;
+      color: beige;
+    }
+    .ach p {
+      font: 1.3em bolder;
+      font-weight: 500;
+      margin-top: 5px;
+      font-family: sans-serif;
+      color: beige;
+    }
+    .ach {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 5px;
+      padding: 5px;
+      font-size: 20px;
+    }
+    .ach img {
+      max-width: 100%;
+      height: auto;
+    }
+    .ach video {
+      width: 100%;
+      height: 500px;
+    }
+  
+  }
+
+  @media (min-width: 768px) and (max-width: 1279px) {
+    body {
+        background-color: #3a1e34;
+        color: beige;
+    }
+  
+    .header__logo {
+        border-radius: 50px;
+        height: 40px;
+        position: fixed;
+        left: 2%;
+        top: 2%;
+    }
+    
+    .footerall {
+      position: fixed;
+      bottom: 2%;
+      right: 2%;
+   }
+
+   #contactf{
+     position: fixed;
+     left: 2%;
+   }
+    
+   .content__image {
+      float: right;
+        width: 40%;
+        height: 55%;
+        margin-top: 100px;
+    }
+    .nav__link {
+        background-color: rgb(44, 202, 213);
+        color: black;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 1px solid black;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    
+    .nav__link:hover {
+        background: blue;
+        color: white;
+    }
+    .block{
+        float:left;
+        width:33%;
+        padding:10px;
+        box-sizing:border-box;
+    }
+    .block img{
+        width: 100%;
+        height: 500px;
+    }
+    .block video{
+        width: 100%;
+        height: 500px;
+    }
+    .nav {
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 5px;
+    }
+    #title {
+        text-align: center;
+        color: beige;
+        font-family: serif;
+        font-weight: 500;
+        text-decoration: underline;
+        text-transform: uppercase;
+        line-height: 1.3em;
+        text-align: center;
+        margin-top: 15px;
+    }
+  
+    .container h1 {
+      font-family: serif;
+      font-weight: 800;
+      text-decoration: underline;
+      text-transform: uppercase;
+      line-height: 1.3em;
+      text-align: center;
+      margin-top: 50px;
+      color: beige;
+    }
+
+    .container p{
+      font : 20px bolder;
+      font-weight: 500;
+      margin-top: 15px;
+      font-family: sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+    }
+    .box-001 {
+      padding: 10px;
+      font-size: 24px;
+      text-align: center;
+    }
+    .cont{
+      font : 24px bolder;
+      font-weight: 500;
+      margin-top: 25px;
+      font-family: sans-serif;
+      color: beige;
+    }
+    .ach h1 {
+      font-family: serif;
+      font-weight: 800;
+      text-decoration: underline;
+      text-transform: uppercase;
+      line-height: 1em;
+      text-align: center;
+      margin-top: 5px;
+      color: beige;
+    }
+    .ach p {
+      font: 18px bolder;
+      font-weight: 500;
+      margin-top: 5px;
+      font-family: sans-serif;
+      color: beige;
+    }
+    .ach {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 5px;
+      padding: 5px;
+      font-size: 20px;
+    }
+    .ach img {
+      max-width: 100%;
+      height: auto;
+    }
+    .ach video {
+      width: 100%;
+      height: 500px;
+    }
+  
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background-color: #3a1e1e;
+        color: beige;
+    }
+  
+    .header__logo {
+        border-radius: 50px;
+        height: 40px;
+        position: fixed;
+        left: 2%;
+        top: 2%;
+    }
+    .footerall {
+       position: fixed;
+       bottom: 2%;
+       right: 2%;
+    }
+    #contactf{
+      position: fixed;
+      left: 2%;
+    }
+    .content__image {
+        float: right;
+        width: 40%;
+        height: 55%;
+        margin-top: 100px;
+    }
+    .nav__link {
+        background-color: rgb(153, 71, 71);
+        color: black;
+        padding: 5px;
+        margin-left: 1px;
+        margin-right: 1px;
+        border: 1px solid black;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    .nav__link:hover {
+        background: blue;
+        color: white;
+    }
+    .block{
+        float:left;
+        width:50%;
+        padding:10px;
+        box-sizing:border-box;
+        font-size: 12px;
+    }
+    .block img{
+        width: 100%;
+        height: 300px;
+    }
+    .block video{
+        width: 100%;
+        height: 300px; 
+    }
+    .nav {
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 5px;
+    }
+    #title {
+        text-align: center;
+        color: beige;
+        font-family: serif;
+        font-weight: 600;
+        text-decoration: underline;
+        text-transform: uppercase;
+        line-height: 1.3em;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .container h1 {
+      font-family: serif;
+      font-weight: 600;
+      text-decoration: underline;
+      text-transform: uppercase;
+      line-height: 1.3em;
+      text-align: center;
+      margin-top: 50px;
+      color: beige;
+    }
+
+    .container p{
+      font : 12px bolder;
+      font-weight: 500;
+      margin-top: 15px;
+      font-family: sans-serif;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+    }
+    .box-001 {
+      padding: 10px;
+      font-size: 24px;
+      text-align: center;
+    }
+    .cont{
+      font : 15px bolder;
+      font-weight: 500;
+      margin-top: 25px;
+      font-family: sans-serif;
+      color: beige;
+    }
+    .ach h1 {
+      font-family: serif;
+      font-weight: 800;
+      text-decoration: underline;
+      text-transform: uppercase;
+      line-height: 1em;
+      text-align: center;
+      margin-top: 50px;
+      color: beige;
+    }
+    .ach p {
+      font: 18px bolder;
+      font-weight: 500;
+      margin-top: 5px;
+      font-family: sans-serif;
+      color: beige;
+    }
+    .ach {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 5px;
+      padding: 5px;
+      font-size: 20px;
+    }
+    .ach img {
+      max-width: 100%;
+      height: auto;
+    }
+    .ach video {
+      width: 100%;
+      height: 500px;
+    }
+  
+  }

@@ -6,71 +6,70 @@
     <title>Hobby Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<header>
-    <img src="image/logo2.png" id="logo">
-    <a class="nav" href="contact.html"> Contact </a>
-    <a class="nav" href="achievment.html"> Achievments </a>
-    <a class="nav" href="travel.html"> Visited </a>
-    <a class="nav" href="hobby.html" > Hobby </a>
-    <a class="nav" href="index.html"> Home </a> 
-</header>
 <body>
-    <h1 id="title">Hobbies</h1>
-    <div class="block">
-        <h3>Football</h3>
-        <p>On the field, I find my calling, whether it's thwarting attacks as a steadfast defender or leaping to save shots as an agile goalkeeper. Each position offers its unique challenges and rewards, demanding unwavering focus, tactical awareness, and lightning reflexes. As a defender, I relish the thrill of anticipating opponents' moves, intercepting passes, and disrupting their offensive rhythm. The adrenaline rush of thwarting a goal-scoring opportunity is unmatched.
+    <header class="header">
+        <img src="logo2.png" class="header__logo" alt="Logo">
+        <nav class="nav">
+            <a href="contact.html" class="nav__link">Contact</a>
+            <a href="achievment.html" class="nav__link">Achievements</a>
+            <a href="travel.html" class="nav__link">Visited</a>
+            <a href="hobby.html" class="nav__link">Hobby</a>
+            <a href="index.html" class="nav__link">Home</a>
+        </nav>
+    </header>
 
-            When I step between the posts as the goalkeeper, I become the last line of defense, a guardian protecting our net from the relentless onslaught. The anticipation of facing shots, the quick reflexes to react, and the satisfaction of deflecting powerful strikes are exhilarating. Football is more than just a sport for me; it's an outlet for my energy, a source of camaraderie, and a platform to test my limits.</p>
+    <h1 id="title" class="title">Hobbies</h1>
+
+    <div class="block">
+        <h3 class="block__title">Football</h3>
+        <p class="block__text">
+            On the field, I find my calling, whether it's thwarting attacks as a steadfast defender or leaping to save shots as an agile goalkeeper. Each position offers its unique challenges and rewards, demanding unwavering focus, tactical awareness, and lightning reflexes. As a defender, I relish the thrill of anticipating opponents' moves, intercepting passes, and disrupting their offensive rhythm. The adrenaline rush of thwarting a goal-scoring opportunity is unmatched.
+            When I step between the posts as the goalkeeper, I become the last line of defense, a guardian protecting our net from the relentless onslaught. The anticipation of facing shots, the quick reflexes to react, and the satisfaction of deflecting powerful strikes are exhilarating.
+        </p>
     </div>
 
     <div class="block">
-        <img src="image/ball.jpg" alt="" >
+        <img src="ball.jpg" alt="" class="block__image">
     </div>
 
     <div class="block">
-        <video controls muted loop src="football.mp4" ></video>
+        <video src="football.mp4" controls="" class="block__video"></video>
     </div>
 
     <div class="block">
-        <h3>Traveling</h3>
-        <p>Traveling is my favorite way to spend my free time. It allows me to explore new places, meet new people, and learn about different cultures. I have been fortunate enough to travel to many different parts of my country.
-
+        <h3 class="block__title">Traveling</h3>
+        <p class="block__text">
+            Traveling is my favorite way to spend my free time. It allows me to explore new places, meet new people, and learn about different cultures. I have been fortunate enough to travel to many different parts of my country.
             One of my favorite places to visit is the city of Dessie in Ethiopia. It is a beautiful city with a rich history and culture. I love to wander through the old city and explore the narrow streets and markets.
-            
             Another place that I loved is Borena in Ethiopia.
-            
-            I am always looking for new places to visit in my country. For more go to the next page.
-                        
+            I am always looking for new places to visit in my country. For more, go to the next page.
+        </p>
     </div>
 
     <div class="block">
-        <img src="image/travel.jpg" alt="" >
+        <img src="travel.jpg" alt="" class="block__image">
     </div>
 
     <div class="block">
-        <video controls muted loop src="image/trip2.mp4" controls="" ></video>
+        <video src="trip2.mp4" controls="" class="block__video"></video>
     </div>
 
     <div class="block">
-        <h3>Reading</h3>
-        <p>As an avid reader, I find immense joy and satisfaction in immersing myself in the world of books. With each turn of the page, I embark on a journey of discovery, expanding my knowledge, enhancing my vocabulary, and broadening my perspectives. Reading has become an integral part of my life, a source of endless fascination and personal growth.
-
+        <h3 class="block__title">Reading</h3>
+        <p class="block__text">
+            As an avid reader, I find immense joy and satisfaction in immersing myself in the world of books. With each turn of the page, I embark on a journey of discovery, expanding my knowledge, enhancing my vocabulary, and broadening my perspectives. Reading has become an integral part of my life, a source of endless fascination and personal growth.
             Through the power of words, I have traversed through time, exploring different cultures, historical periods, and scientific concepts. I have delved into the depths of human emotion, experiencing the joys, sorrows, and triumphs of characters from all walks of life. With each literary encounter, I gain a deeper understanding of myself and the world around me.
-            
             Reading has not only enriched my mind but also nurtured my soul. The rhythmic cadence of prose and the evocative imagery of poetry transport me to serene landscapes and bustling cities, evoking a myriad of emotions. I find solace in the comforting embrace of words, a refuge from the daily clamor of life.
-            
+        </p>
     </div>
 
     <div class="block">
-        <img src="image/reading.jpg" alt="">
+        <img src="reading.jpg" alt="" class="block__image">
     </div>
 
-
-
-    
+    <footer class="footerall">
+        <a href="travel.html" class="nav__link">Next Page</a>
+        <a href="index.html" id="contactf" class="nav__link">Previous Page</a>
+    </footer>
 </body>
-<footer class="footerall">
-    <a href="travel.html" class="nav">Next Page</a>
-    <a id="contactf" href="index.html" class="nav">Previous Page</a>
-</footer>
 </html>

@@ -3,62 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>achievment</title>
+    <title>achievement</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<header>
-    <img src="image/logo2.png" id="logo">
-    <a class="nav" href="contact.html"> Contact </a>
-    <a class="nav" href="achievment.html"> Achievments </a>
-    <a class="nav" href="travel.html"> Visited </a>
-    <a class="nav" href="hobby.html" > Hobby </a>
-    <a class="nav" href="index.html"> Home </a> 
-</header>
 <body>
-    <DIV class="ach">
-        <h1>ACHIEVMENTS</h1>
-        <table id="table">
-            <td>
-                <p>Here is the certificate given to me from Spring of Knowledge Academy for being one of the best players in 2019. By reaching the scool's leage final.</p>
+    <header class="header">
+        <img src="logo2.png" class="header__logo" alt="Logo">
+        <nav class="nav">
+            <a href="contact.html" class="nav__link">Contact</a>
+            <a href="achievment.html" class="nav__link">Achievements</a>
+            <a href="travel.html" class="nav__link">Visited</a>
+            <a href="hobby.html" class="nav__link">Hobby</a>
+            <a href="index.html" class="nav__link">Home</a>
+        </nav>
+    </header>
 
-            </td>
-            <td>
-                <img src="image/achievments3.png" alt="">
-            </td>
+    <div class="ach">
+        <h1 class="ach__title">ACHIEVEMENTS</h1>
+        <table class="ach__table" id="table">
             <tr>
-            <td>
-                <p>Here is the certificate given to me from Bilalul Habeshi Community for Development and Support for participating in one of their training programs.</p>
-
-            </td>
-            <td>
-                <img src="image/achievments4.png" alt="">
-            </td>
+                <td class="ach__cell">
+                    <p class="ach__description">Here is the certificate given to me from Spring of Knowledge Academy for being one of the best players in 2019 by reaching the school's league final.</p>
+                </td>
+                <td class="ach__cell">
+                    <img src="achievments3.png" alt="" class="ach__image">
+                </td>
             </tr>
-
             <tr>
-            <td>
-                <p>Here is the medal I have took for runnig the ethiopian great run in 2017.</p>
-        
-            </td>
-            <td>
-                <img src="image/achievments1.png" alt="">
-            </td>
+                <td class="ach__cell">
+                    <p class="ach__description">Here is the certificate given to me from Bilalul Habeshi Community for Development and Support for participating in one of their training programs.</p>
+                </td>
+                <td class="ach__cell">
+                    <img src="achievments4.png" alt="" class="ach__image">
+                </td>
             </tr>
-
             <tr>
-            <td>
-                <p>Here is the medal I have took for runnig the ethiopian great run in 2018.</p>        
-            </td>
-            <td>
-                <img src="image/achievments2.png" alt="">
-            </td>
+                <td class="ach__cell">
+                    <p class="ach__description">Here is the medal I received for running the Ethiopian Great Run in 2017.</p>
+                </td>
+                <td class="ach__cell">
+                    <img src="achievments1.png" alt="" class="ach__image">
+                </td>
+            </tr>
+            <tr>
+                <td class="ach__cell">
+                    <p class="ach__description">Here is the medal I received for running the Ethiopian Great Run in 2018.</p>
+                </td>
+                <td class="ach__cell">
+                    <img src="achievments2.png" alt="" class="ach__image">
+                </td>
             </tr>
         </table>
+    </div>
 
-    </DIV>
+    <footer class="footerall">
+        <a href="contact.html" class="nav__link">Next Page</a>
+        <a href="travel.html" id="contactf" class="nav__link">Previous Page</a>
+    </footer>
 </body>
-<footer class="footerall">
-    <a href="contact.html" class="nav">Next Page</a>
-    <a id="contactf" href="travel.html" class="nav">Previous Page</a>
-</footer>
 </html>

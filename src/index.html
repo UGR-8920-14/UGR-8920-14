@@ -3,39 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<header>
-    <img src="image/logo2.png" id="logo">
-    <a class="nav" href="contact.html"> Contact </a>
-    <a class="nav" href="achievment.html"> Achievments </a>
-    <a class="nav" href="travel.html"> Visited </a>
-    <a class="nav" href="hobby.html"> Hobby </a>
-    <a class="nav" href="index.html"> Home </a> 
-</header>
-<body>
-    <div class="container">
-        <div class="box-1">
-            <img class="img" src="image/matric picture.jpg" alt="">
-            <h1>Hello Everyone </h1>
-            <p>Welcome to my website!
+    <title>Hobby Page</title>
+    <link rel="stylesheet" href="../assets/main.css">
+    <style>
+        .header {
+            background-color: #f8f9fa; 
+            padding: 10px;
+        }
 
-                My name is Ahmed. I am a student at AAiT, where I am studying software engineering. I live a simple life, but I enjoy traveling and playing sports, especially football. I have also achieved some things that I am proud of, and you can read about them on the following pages.
+        .footerall {
+            background-color: #f8f9fa;
+            padding: 10px;
+            
+        }
+
+        .header__logo{
+            border-radius: 50px;
+        }
+
+        
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .nav-link {
+            background-color: #00ffd9;
+            padding: 2px;
+            margin: 5px;
+            border-radius: 50px;
+        }
+
+        .nav-link:hover {
+            background-color: #28a745;
+        }
+
+
+    .content__title {
+        text-align: center;
+    }
+    .content__text {
+        margin-right: 45%;
+    }
+
+    @media (max-width: 768px) {
+        .content__image {
+            width: 100%;
+            float: none;
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        .content__text {
+            margin-left: 0;
+        }
+    }
+
+    </style>
+</head>
+<body class="bg-primary text-light" >
+    <header class="header navbar navbar-expand-lg navbar-light bg-primary">
+        <a href="#" class="navbar-brand">
+            <img src="images/logo2.png" class="header__logo w-25" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="hobby.html" class="nav-link">Hobby</a>
+                </li>
+                <li class="nav-item">
+                    <a href="travel.html" class="nav-link">Visited</a>
+                </li>
+                <li class="nav-item">
+                    <a href="achievment.html" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
                 
-                I am passionate about software engineering. I enjoy the challenge of solving problems and creating new things. I am always looking for ways to improve my skills and learn new things.
                 
-                I am also a big fan of sports. I especially enjoy playing football. I love the competition and the camaraderie of being part of a team.
                 
-                I love to travel and experience new cultures. I always learn something new on each trip. 
-                I love animals.
                 
-                I am grateful for the opportunities that I have been given. I am determined to make the most of them and achieve my goals.
-            </p>
-        </div>            
+            </ul>
+        </div>
+    </header>
+
+   
+
+
+    <div class="container  text-center mt-4">
+        <div class="row align-items-center ">
+            <div class="col-md-5">
+                    
+                <h1 class="h1 text-white">Hello Everyone</h1>
+                <p class="lead">
+                    Welcome to my website!
+                    My name is Ahmed. I am a student at AAiT, where I am studying software engineering. I live a simple life, but I enjoy traveling and playing sports, especially football. I have also achieved some things that I am proud of, and you can read about them on the following pages.
+                    I am passionate about software engineering. I enjoy the challenge of solving problems and creating new things. I am always looking for ways to improve my skills and learn new things.
+                    I am also a big fan of sports. I especially enjoy playing football. I love the competition and the camaraderie of being part of a team.
+                    I love to travel and experience new cultures. I always learn something new on each trip.
+                    I love animals.
+                    I am grateful for the opportunities that I have been given. I am determined to make the most of them and achieve my goals.
+                </p>
+            </div>
+            <div class="col-md-7">
+                <img  src="images/matric picture.jpg" class="img-fluid" style="max-width: 50%; height: auto;" alt="Matric Picture">
+               
+            </div>
+        </div>
+        
+       
     </div>
+    <footer class="footerall bg-primary">
+        <a href="hobby.html" class="nav-link my-2">Next Page</a>
+    </footer>
 </body>
-<footer class="footerall">
-    <a href="hobby.html" class="nav">Next Page</a>
-</footer>
 </html>

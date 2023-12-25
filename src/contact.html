@@ -3,31 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contanct Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Hobby Page</title>
+    <link rel="stylesheet" href="../assets/main.css">
+    <style>
+        .header {
+            background-color: #f8f9fa; 
+            padding: 10px;
+        }
+
+        .footerall {
+            background-color: #f8f9fa;
+            padding: 10px;
+            
+        }
+
+        .header__logo{
+            border-radius: 50px;
+        }
+
+        
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .nav-link {
+            background-color: #00ffd9;
+            padding: 2px;
+            margin: 5px;
+            border-radius: 50px;
+        }
+
+        .nav-link:hover {
+            background-color: #28a745;
+        }
+    </style>
 </head>
-<header>
-    <img src="image/logo2.png" id="logo">
-    <a class="nav" href="contact.html"> Contact </a>
-    <a class="nav" href="achievment.html"> Achievments </a>
-    <a class="nav" href="travel.html"> Visited </a>
-    <a class="nav" href="hobby.html" > Hobby </a>
-    <a class="nav" href="index.html"> Home </a> 
-</header>
-<body>
+<body class="bg-primary text-light">
+    <header class="header navbar navbar-expand-lg navbar-light bg-primary">
+        <a href="#" class="navbar-brand">
+            <img src="images/logo2.png" class="header__logo w-25" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="hobby.html" class="nav-link">Hobby</a>
+                </li>
+                <li class="nav-item">
+                    <a href="travel.html" class="nav-link">Visited</a>
+                </li>
+                <li class="nav-item">
+                    <a href="achievment.html" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                            
+            </ul>
+        </div>
+    </header>
+
+   
     <div class="container">
-    <H1>CONTACT</H1>
+        <h1 class="container__title text-center mt-4 mb-4">CONTACT</h1>
     </div>
 
-    <div class="cont">
-        <ul>
-            <li>Phone number.....................+251920928989</li>
-            <li>Email adress.......................ahmedmuh543@gmail.com</li>
-            <li>Telegram............................@amsa889</li>
+    <div class="container bg-primary text-light">
+        <ul class="list-group cont__list bg-primary text-light">
+            <li class="list-group-item cont__item bg-primary text-light">Phone number: +251920928989</li>
+            <li class="list-group-item cont__item bg-primary text-light">Email address: ahmedmuh543@gmail.com</li>
+            <li class="list-group-item cont__item bg-primary text-light">Telegram: @amsa889</li>
         </ul>
     </div>
+
+    <footer id="contactf" class="footer bg-primary">
+        <a href="achievment.html" class="nav-link">Previous Page</a>
+    </footer>
+
 </body>
-<footer id="contactf">
-    <a href="achievment.html" class="nav">Previous Page</a>
-</footer>
 </html>

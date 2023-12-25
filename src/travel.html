@@ -3,80 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Hobby Page</title>
+    <link rel="stylesheet" href="../assets/main.css">
+    <style>
+        .header {
+            background-color: #f8f9fa; 
+            padding: 10px;
+        }
+
+        .footerall {
+            background-color: #f8f9fa;
+            padding: 10px;
+            
+        }
+
+        .header__logo{
+            border-radius: 50px;
+        }
+
+        
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .nav-link {
+            background-color: #00ffd9;
+            padding: 2px;
+            margin: 5px;
+            border-radius: 50px;
+        }
+
+        .nav-link:hover {
+            background-color: #28a745;
+        }
+    </style>
 </head>
-<header>
-    <img src="image/logo2.png" id="logo">
-    <a class="nav" href="contact.html"> Contact </a>
-    <a class="nav" href="achievment.html"> Achievments </a>
-    <a class="nav" href="travel.html"> Visited </a>
-    <a class="nav" href="hobby.html" > Hobby </a>
-    <a class="nav" href="index.html"> Home </a> 
-</header>
-<body>
-    <div class="container">
-    <H1>VISITED PLACES</H1>
+<body class="bg-primary text-light">
+    <header class="header navbar navbar-expand-lg navbar-light bg-primary">
+        <a href="#" class="navbar-brand">
+            <img src="images/logo2.png" class="header__logo w-25" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="hobby.html" class="nav-link">Hobby</a>
+                </li>
+                <li class="nav-item">
+                    <a href="travel.html" class="nav-link">Visited</a>
+                </li>
+                <li class="nav-item">
+                    <a href="achievment.html" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contac.html" class="nav-link">Contact</a>
+                </li>
+                
+                
+                
+                
+            </ul>
+        </div>
+    </header>
 
-    <div class="block">
-        <h1>Borena Trip</h1>
-        <p>
-            I have travelled to different places, one is borena which is a very beautiful place to visit. From the things I have learned from that society is that if a gues comes welcome them in a very good manner. the Borena are very welcoming and good people.
-        </p>
+   
+
+  <main class="container py-4">
+    <h1 class="text-center mb-4">VISITED PLACES</h1>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <h2 class="mb-3">Borena Trip</h2>
+        <p>I have traveled to different places, one is Borena which is a very beautiful place to visit. From the things I have learned from that society is that if a guest comes, welcome them in a very good manner. The Borena are very welcoming and good people.</p>
+      </div>
+      <div class="col">
+        <img src="images/travel.jpg" class="img-fluid rounded" alt="Borena Trip Image">
+      </div>
+      <div class="col">
+        <img src="images/travel2.jpg" class="img-fluid rounded" alt="Borena Trip Image">
+      </div>
+      
+      <div class="col">
+        <img src="images/travel3.jpg" class="img-fluid rounded" alt="Borena Trip Image">
+      </div>
+      <div class="col">
+        <video src="images/trip1.mp4" controls=""class="img-fluid rounded"></video>
+      </div>
+      <div class="col">
+        <img src="images/travel4.jpg" class="img-fluid rounded" alt="Borena Trip Image">
+      </div>
+      
     </div>
 
-    <div class="block">
-        <img src="image/travel.jpg" alt="" >
+    <div class="row row-cols-1 row-cols-md-3 g-4 py-4">
+      <div class="col">
+        <h2 class="mb-3">Dessie Trip</h2>
+        <p>The Dessie trip is always a special trip because I have many relatives there and we go to the village area because my ancestors are farmers and I love being there. Another special thing there is that we go frequently. On the road, there is a place called Fontenina which offers fresh Papaya which makes you cool.</p>
+      </div>
+      <div class="col">
+        <img src="images/dessie1.jpg" class="img-fluid rounded" alt="Borena Trip Image">
+      </div>
+      <div class="col">
+        <img src="images/dessie2.jpg" class="img-fluid rounded" alt="Borena Trip Image">
+      </div>
+      
+      <div class="col">
+        <img src="images/dessie3.jpg" class="img-fluid rounded" alt="Borena Trip Image">
+      </div>
+      <div class="col">
+        <video src="images/dessie (1).mp4" controls="" class="img-fluid rounded"></video>
+      </div>
+      <div class="col">
+        <img src="images/dessie4.jpg" class="img-fluid rounded" alt="Borena Trip Image">
+      </div>
     </div>
+  </main>
 
-    <div class="block">
-        <img src="image/travel3.jpg" alt="" >
+  <footer class="p-4 bg-primary text-white shadow-sm">
+    <div class="container-fluid">
+      <a class="nav-link text-white" href="hobby.html" id="contactf">Previous Page</a>
+      <a class="nav-link text-white text-end" href="achievment.html">Next Page</a>
     </div>
+  </footer>
 
-    <div class="block">
-        <img src="image/travel4.jpg" alt="">
-    </div>
-
-    <div class="block">
-        <video controls muted loop src="image/trip3.mp4" controls=""></video>
-    </div>
-
-    <div class="block">
-        <img src="image/travel2.jpg" alt="">
-    </div>
-
-    
-    <div class="block">
-        <h1>Dessie Trip</h1>
-        <p>
-            The Dessie trip is always a special trip which is because i have many relatives their and we go to the village area because my ansestors are farmers and i love being there. another special thing there is that we go frequently. On the road there is a place called Fontenina which offers fresh Papaya which makes you cool.
-        </p>
-    </div>
-
-    <div class="block">
-        <img src="image/dessie1.jpg" alt="">
-    </div>
-
-    <div class="block">
-        <img src="image/dessie2.jpg" alt="">
-    </div>
-
-    <div class="block">
-        <img src="image/dessie3.jpg" alt="">
-    </div>
-
-    <div class="block">
-        <video controls muted loop src="image/dessie (1).mp4" controls=""></video>
-    </div>
-
-    <div class="block">
-        <img src="image/dessie4.jpg" alt="">
-    </div>
-
-    </div>
 </body>
-<footer class="footerall">
-    <a href="achievment.html" class="nav">Next Page</a>
-    <a id="contactf" href="hobby.html" class="nav">Previous Page</a>
-</footer>
 </html>
